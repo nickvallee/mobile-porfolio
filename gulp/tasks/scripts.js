@@ -7,7 +7,6 @@ gulp.task('scripts', function(callback) {
             console.log(err.toString());
         }
 
-
         console.log(stats.toString());
         callback();
     });
